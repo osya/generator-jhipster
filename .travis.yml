@@ -54,6 +54,10 @@ env:
     - JHIPSTER=app-microservice-eureka
     - JHIPSTER=app-microservice-consul
 
+branches:
+  only:
+  - feature/compose-v3-support
+
 before_install:
   - jdk_switcher use oraclejdk8
   - java -version
