@@ -57,6 +57,7 @@ env:
 branches:
   only:
   - feature/compose-v3-support
+  - master
 
 before_install:
   - jdk_switcher use oraclejdk8
